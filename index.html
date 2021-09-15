@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<center>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Google=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.js" integrity="sha512-dMiBqqEV5i3KqpAdsgQSSZ72DnNib7otY0X+b/Tnn1EmLym1dxuZ19csdZqBnfDniKd9bmNtzStQzuMrIa5Ngw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="app.js"></script>
+    <title>Music Player</title>
+</head>
+<body style="background-color:rgb(110, 160, 200)">
+    <p style="font-size: xx-large;"><b>
+        Welcome to my Music Player
+    </b></p>
+<div>
+    <p><b>
+        Song: Swedish House Mafia - One
+    </b></p>
+    <input id="vol-control" type="range" min="0" max="100" step="1" oninput="thisVolume(this.value)" onchange="thisVolume(this.value)"></input>
+    <button id="button1">Play</button>
+    <button id="button2">Pause</button>
+    <button id="button3">Stop</button>
+    <div id="vol"></div>
+</div>
+<div>
+    <p><b>
+        Song: Drake - Toosie Slide
+    </b></p>
+    <input type="range" id="volume-control">
+    <button id="button4">Play</button>
+    <button id="button5">Pause</button>
+    <button id="button6">Stop</button>
+</div>
+<div>
+    <p><b>
+        Song: Far East Movement - Rocketeer
+    </b></p>
+    <input type="range" id="volume-control">
+    <button id="button7">Play</button>
+    <button id="button8">Pause</button>
+    <button id="button9">Stop</button>
+</div>
+<div>
+    <p><b>
+        Song: Drake - Passionfruit
+    </b></p>
+    <input type="range" id="volume-control">
+    <button id="button10">Play</button>
+    <button id="button11">Pause</button>
+    <button id="button12">Stop</button>
+</div>
+</body>
+</html>
